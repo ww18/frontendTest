@@ -1,0 +1,27 @@
+{
+  "name": "testdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "unit": "karma start",
+    "e2e": "node ./e2e/baidu.spec.js",
+    "permonce": "node ./permonce/code.js",
+    "ui": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backstopjs": "^3.1.19",
+    "benchmark": "^2.1.4",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs": "^2.1.7+deprecated",
+    "phantomjs-prebuilt": "^2.1.16",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
