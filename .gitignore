@@ -97,4 +97,6 @@ node_modules
 node_modules/
 backstop_data
 backstop_data/
+coverage
+coverage/
 *.pyc
