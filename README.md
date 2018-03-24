@@ -1,8 +1,12 @@
 # frontendTest
 node的版本是v8.10.0
+
 前端测试总结，unit，e2e, 性能测试，ui测试
+
 该项目包括，单元测试，e2e测试，性能测试和ui测试
+
 运行步骤如下
+
 1. npm install
 2. npm run unit
 这步会进行单元测试和覆盖率检测，单元测试的文件在unit文件夹下，运行后会在terminal中显示测试的结果，项目中会生成一个文件夹coverage，这个名字是在karma.conf.js里配置的，文件夹里的html文件查看测试覆盖率
