@@ -1,9 +1,9 @@
 # frontendTest
 node的版本是v8.10.0
 
-前端测试总结，unit，e2e, 性能测试，ui测试
+前端测试总结，unit，e2e, 性能测试，ui测试，接口测试
 
-该项目包括，单元测试，e2e测试，性能测试和ui测试
+该项目包括，单元测试，e2e测试，性能测试，ui测试和接口测试
 
 运行步骤如下
 
@@ -19,3 +19,6 @@ sudo npm install backstopjs -g
 然后执行backstop init,  如果执行不成功，试试sudo backstop init
 这时会生成一个backstop.json文件和backstop_data文件夹，json文件中是配置项，文件夹放置对比的ui图，和对比的结果，在backstop_data文件夹中需要自己创建一个文件夹，名字是bitmaps_reference，将ui原图放到这个文件夹内，文件夹命名要遵循一定的规则，可以放多张，具体参考官方文档。
 然后执行 backstop test，如果执行不成功，试试sudo backstop test，这时就会自动生成一个对比后的html文档。
+6. 接口测试
+用到的是supertest 和mocha以及mochawesome
+执行 npm run service  即可看到结果
