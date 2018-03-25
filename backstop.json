@@ -3,8 +3,8 @@
   "viewports": [
     {
       "label": "phone",
-      "width": 750,
-      "height": 1400
+      "width": 634,
+      "height": 1124
     },
     {
       "label": "tablet",
@@ -18,7 +18,7 @@
     {
       "label": "test",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "http://peizi.com:8090/user",
+      "url": "https://map.baidu.com/mobile/webapp/index/index/",
       "referenceUrl": "",
       "readyEvent": "",
       "readySelector": "",
@@ -27,7 +27,7 @@
       "removeSelectors": [],
       "hoverSelector": "",
       "clickSelector": "",
-      "postInteractionWait": "",
+      "postInteractionWait": 0,
       "selectors": [],
       "selectorExpansion": true,
       "misMatchThreshold" : 0.1,

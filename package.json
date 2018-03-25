@@ -6,14 +6,14 @@
   "scripts": {
     "unit": "karma start",
     "e2e": "node ./e2e/baidu.spec.js",
-    "permonce": "node ./permonce/code.js",
-    "ui": ""
+    "performance": "node ./permonce/code.js",
+    "ui": "backstop test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "backstopjs": "^3.1.19",
+    "backstopjs": "^3.1.21",
     "benchmark": "^2.1.4",
     "jasmine-core": "^3.1.0",
     "karma": "^2.0.0",
@@ -23,5 +23,8 @@
     "phantomjs": "^2.1.7+deprecated",
     "phantomjs-prebuilt": "^2.1.16",
     "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "backstopjs": "^3.1.21"
   }
 }
